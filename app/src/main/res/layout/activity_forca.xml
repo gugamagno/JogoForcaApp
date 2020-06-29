@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForcaActivity">
+
+    <ImageView
+        android:id="@+id/ivforca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/desc_forca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092"
+        app:srcCompat="@drawable/forca1" />
+
+    <TextView
+        android:id="@+id/tvpalavra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/tvpalavra"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/ivforca"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <TextView
+        android:id="@+id/tvdica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tvdica"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toEndOf="@+id/tvtitulodica"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <LinearLayout
+        android:id="@+id/llteclado"
+        android:layout_width="355dp"
+        android:layout_height="177dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivbta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bta" />
+
+            <ImageView
+                android:id="@+id/ivbtb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btb" />
+
+            <ImageView
+                android:id="@+id/ivbtc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btc" />
+
+            <ImageView
+                android:id="@+id/ivbtd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btd" />
+
+            <ImageView
+                android:id="@+id/ivbte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bte" />
+
+            <ImageView
+                android:id="@+id/ivbtf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btf" />
+
+            <ImageView
+                android:id="@+id/ivbtg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivbth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bth" />
+
+            <ImageView
+                android:id="@+id/ivbti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bti" />
+
+            <ImageView
+                android:id="@+id/ivbtj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btj" />
+
+            <ImageView
+                android:id="@+id/ivbtk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btk" />
+
+            <ImageView
+                android:id="@+id/ivbtl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btl" />
+
+            <ImageView
+                android:id="@+id/ivbtm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btm" />
+
+            <ImageView
+                android:id="@+id/ivbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivbto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bto" />
+
+            <ImageView
+                android:id="@+id/ivbtp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btp" />
+
+            <ImageView
+                android:id="@+id/ivbtq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btq" />
+
+            <ImageView
+                android:id="@+id/ivbtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btr" />
+
+            <ImageView
+                android:id="@+id/ivbts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bts" />
+
+            <ImageView
+                android:id="@+id/ivbtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btt" />
+
+            <ImageView
+                android:id="@+id/ivbtu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivbtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/btv" />
+
+            <ImageView
+                android:id="@+id/ivbtw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btw" />
+
+            <ImageView
+                android:id="@+id/ivbtx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btx" />
+
+            <ImageView
+                android:id="@+id/ivbty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/bty" />
+
+            <ImageView
+                android:id="@+id/ivbtz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                app:srcCompat="@drawable/btz" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvtitulodica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvtitulodica"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

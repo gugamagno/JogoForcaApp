@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">JogoForcaApp</string>
+
+    <string name="tvtitulomain">LOGIN</string>
+    <string name="tvtitulocadastrousuario">CADASTRO USUÁRIO</string>
+    <string name="tvheaderranking">RANKING</string>
+    <string name="tvtituloinicio">JOGO DA FORCA</string>
+    <string name="tvtitulocadastropalavra">CADASTRO PALAVRAS</string>
+    <string name="tvheaderlistapalavra">LISTA DE PALAVRAS</string>
+    <string name="etusuario">USUÁRIO</string>
+    <string name="etnome">USUÁRIO</string>
+    <string name="etemail">EMAIL</string>
+    <string name="etsenha">SENHA</string>
+    <string name="etpalavra">NOVA PALAVRA</string>
+    <string name="etdica">NOVA DICA</string>
+    <string name="btentrar">ENTRAR</string>
+    <string name="btcadastrar">CADASTRAR</string>
+    <string name="btiniciar">INICIAR</string>
+    <string name="tvnaotemconta">Não tem conta?</string>
+    <string name="tvcadastre">Cadastre-se</string>
+    <string name="tvtitulodica">DICA:</string>
+    <string name="tvdica">DICA</string>
+    <string name="tvpalavra">PALAVRA</string>
+    <string name="tvlistapalavra">LISTA PALAVRA</string>
+    <string name="desc_forca">IMAGEM FORCA</string>
+    <string name="no_usuarios">Nenhum usuário cadastrado</string>
+</resources>
